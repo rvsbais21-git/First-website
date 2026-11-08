@@ -1,25 +1,31 @@
-# First Website
+# Personal Website
 
-A small static website built while learning the foundations of web development with HTML.
-
-The project began as a place to experiment with HTML elements and page structure, with the longer-term aim of developing a personal blog and portfolio.
+A responsive personal website built with semantic HTML and CSS. It began as an experiment in learning HTML and is evolving into a small portfolio and writing space.
 
 ## Files
 
-- `index.html` — main webpage
-- `Me.jpeg` — image currently referenced by the webpage
+- `index.html` — page structure and content
+- `style.css` — responsive layout, typography, and visual styling
+- `Me.jpeg` — portrait used on the page
 
 ## Run locally
 
-Open `index.html` in a web browser. No build step or package manager is required.
+Open `index.html` in a modern web browser. No build step, package manager, or JavaScript framework is required.
 
-## Current scope
+The page uses Google Fonts when an internet connection is available and falls back to system fonts otherwise.
 
-This is an early learning project. Future iterations can introduce a dedicated stylesheet, responsive layouts, accessibility improvements, and JavaScript where useful.
+## Design and accessibility
+
+- Semantic page landmarks and heading hierarchy
+- Mobile-responsive layouts
+- Descriptive image alternative text
+- Keyboard-visible focus styles and a skip link
+- Reduced-motion preference support
+- External links opened with `noopener noreferrer`
 
 ## Deployment
 
-The repository is configured as a GitHub Pages website:
+The repository is configured for GitHub Pages:
 
 https://rvsbais21-git.github.io/First-website/
 
